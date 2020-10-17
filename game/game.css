@@ -1,0 +1,10 @@
+
+    .privado-game{
+        display: flex;
+        justify-content: center;
+        margin-top: 2.5%;
+    }
+    
+    #playground {
+        display: flex;
+    }

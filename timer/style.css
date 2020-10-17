@@ -1,0 +1,22 @@
+#timer {
+display : flex ;
+flex-direction: row;
+font-weight: bold;
+justify-content: center;
+font-size: xx-large;
+}
+.privado-timer{
+width: auto;
+margin: auto;
+text-align: center;
+position: absolute;
+left: 50%;
+top: 40%;
+transform: translate(-50%, -50%);
+}
+.label {
+    margin : 10px ;
+}
+.btn {
+    margin : 10px ;
+}
