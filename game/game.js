@@ -52,25 +52,25 @@ document.onkeydown = function(e) {
     switch (e.key) { 
         case 'ArrowLeft': 
             if (parseInt(selectedbox.style.left) > playground.offsetLeft  ){
-                if(Math.abs(parseInt(box1.style.left)- parseInt(box2.style.left)) == 101 && Math.abs(parseInt(box1.style.top)-parseInt(box2.style.top)) < 101){break;}
+                if(parseInt(selectedbox.style.left)- parseInt(unselectedbox.style.left) == 101 && Math.abs(parseInt(box1.style.top)-parseInt(box2.style.top)) < 101){break;}
             selectedbox.style.left = `${parseInt(selectedbox.style.left) - 1}px`;
             }
             break; 
         case 'ArrowUp': 
             if (parseInt(selectedbox.style.top) > playground.offsetTop ){
-                if(Math.abs(parseInt(box1.style.top) - parseInt(box2.style.top))==101 && Math.abs(parseInt(box1.style.left)-parseInt(box2.style.left))< 101){break;}
+                if((parseInt(selectedbox.style.top) - parseInt(unselectedbox.style.top))==101 && Math.abs(parseInt(box1.style.left)-parseInt(box2.style.left))< 101){break;}
                 selectedbox.style.top = `${parseInt(selectedbox.style.top) - 1}px`;
             }
             break; 
         case 'ArrowRight':  
             if (parseInt(selectedbox.style.left) < playground.offsetLeft + 500 ){
-                if(Math.abs(parseInt(box1.style.left)- parseInt(box2.style.left)) == 101 && Math.abs(parseInt(box1.style.top)-parseInt(box2.style.top)) < 101){break;}    
+                if(parseInt(unselectedbox.style.left)- parseInt(selectedbox.style.left) == 101 && Math.abs(parseInt(box1.style.top)-parseInt(box2.style.top)) < 101){break;}    
                 selectedbox.style.left = `${parseInt(selectedbox.style.left) + 1}px`;
             }
             break; 
         case 'ArrowDown': 
             if (parseInt(selectedbox.style.top) < playground.offsetTop + 500 ){
-                if(Math.abs(parseInt(box1.style.top) - parseInt(box2.style.top))==101 && Math.abs(parseInt(box1.style.left)-parseInt(box2.style.left))< 101){break;}
+                if(parseInt(unselectedbox.style.top) - parseInt(selectedbox.style.top)==101 && Math.abs(parseInt(box1.style.left)-parseInt(box2.style.left))< 101){break;}
                 selectedbox.style.top = `${parseInt(selectedbox.style.top) + 1}px`;
             }
     } 
