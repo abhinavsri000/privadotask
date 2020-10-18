@@ -1,4 +1,4 @@
-Clone the repository : git clone https://github.com/abhnavsri000/privado.ai.git
+Clone the repository : git clone https://github.com/abhinavsri000/privadotask.git
 or,
 Download and unzip the repository.
 
