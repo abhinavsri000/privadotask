@@ -6,10 +6,12 @@ Download and unzip the repository.
 
 1) cd timer
 2) Open a browser tab
-3) open timer.html
+3) open timer.html in the tab.
 
 ### Problem 2 : The Game
 
-1)cd game 
+1) cd game 
 2) Open a browser tab
-3) open game.html
+3) open game.html in the tab.
+
+Note : Click on the boxes to select the boxes. As you click the box the selected box color will change to green. box-1 is of red color and box-2 is of blue color. you can use arrow keys to navigate the boxes.
