@@ -17,7 +17,7 @@ function start(){
         }else{sss=ss;}
         document.getElementById("mm").innerHTML = mmm ;
         document.getElementById("ss").innerHTML = sss ;
-    },10)
+    },1000)
 }
 function pause(){
     returntext = "start";
